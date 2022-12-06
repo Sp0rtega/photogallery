@@ -1,0 +1,133 @@
+html {
+    background-color:black
+}
+
+a:focus {
+    border: 1px solid #007D7B
+}
+
+header {
+    background-color: rgba(255,255,255,.25); 
+    padding: 10px;
+}
+
+body {
+    width: 1310px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #007D7B;
+    font-size: 40px;
+    font-family: 'Arial';
+    text-align: left;
+}
+
+h2, h3 {
+    font-family: 'Arial', cursive;
+    color: black;
+    font-size: 40px;
+}
+
+nav h2 {
+    visibility: hidden;
+    height: 1px;
+}
+
+nav li {
+    display: inline-flex;
+}
+
+nav {
+    padding-bottom: 25px;
+    padding-left: 900px;
+}
+
+nav a {
+    background-color: black; 
+    padding: 20px;
+    border-radius: 10px;
+    width: 80px;
+    text-decoration: none;
+    font-weight:bold;
+    color: white;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+nav a:hover {
+    background-color: #007D7B;
+    color: white;
+}
+
+About{
+    font-size: 40px;
+}
+
+#wrapper {
+    display: grid;
+    grid-template-areas:
+    "chile" 
+    "guatemala"
+    "hawaii"
+}
+
+[href="#top"]{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 10px 0px 0px 0px;
+}
+
+.about {
+    width: 20px;
+    float: right;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: -100px;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.row::after {
+    clear: display;
+    display: table;
+    padding: 10px;
+}
+
+
+
+.white {
+    color: white;
+  }
+  
+  .right {
+    text-align: right;
+  }
+  
+  .padding-top {
+    padding-top: 50px
+  }
+  
+  figure {
+    position: relative;
+    min-width: 420px;
+  }
+  
+  figcaption {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+  }
+
+footer {
+    text-align: center;
+}
+
+
+
+
